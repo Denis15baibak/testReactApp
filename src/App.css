@@ -1,38 +1,162 @@
-.App {
-  text-align: center;
+#wrapper {
+	height: 1000px;
+	width: 700px;
+	background-image: url(./components/images/top.jpg);
+	background-repeat: no-repeat;
+	margin-right: auto;
+	margin-left: auto;
+}
+body {
+	background-image: url(./components/images/back.jpg);
+	background-position: left 57px;
+	background-repeat: repeat-x;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Century Gothic", Arial, sans-serif;
+}
+#header-{
+	height: 200px;
+	width: 700px;
+}
+#topnav {
+	width: 600px;
+	height: 58px;
+	float: left;
+	clear: both;
+}
+#welcome {
+	width: 650px;
+	height: 100px;
+	clear: both;
+	padding-top: 20px;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+#welcome h2 {
+	margin: 0px;
+	padding: 0px;
+	color: #006633;
+}
+#dot {
+	color: #FFFFFF;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+#topnav ul {
+	list-style-type: none;
+	padding: 0px;
+	width: 600px;
+	float: left;
+	margin-top: 23px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+}
+#topnav ul li {
+	list-style-type: none;
+	width: 95px;
+	float: left;
+}
+#topnav ul li a {
+	display: block;
+	height: 28px;
+	width: 95px;
+	float: left;
+	color: #006633;
+	text-decoration: none;
+	font-family: "Century Gothic", Arial, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 7px;
+	margin-right: 5px;
+}
+#topnav a:hover {
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	background-image: url(./components/images/tab.gif);
+}
+#content {
+	height: 700px;
+	width: 698px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #d6d6d6;
+	border-left-color: #d6d6d6;
+	border-right-width: 1px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+#topnav .active {
+	color: #006600;
+}
+#maincontent {
+	width: 480px;
+	float: right;
+	margin-top: 20px;
+	height: auto;
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: #006633;
+	margin-right: 5px;
+}
+#maincontent h2 {
+	margin: 0px;
+	padding: 0px;
+	color: #006633;
+}
+#menu h2 {
+	color: #006633;
+	margin: 0px;
+	padding: 0px;
+}
+#footer a {
+	text-decoration: none;
+	color: #006633;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#menu ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	width: 180px;
+}
+#menu ul li a {
+	display: block;
+	text-decoration: none;
+	color: #006633;
+	margin-top: 3px;
+}
+#menu ul li a:hover {
+	background-color: #EBEBEB;
+}
+#menu ul li {
+	height: 20px;
+}
+#welcome a {
+	text-decoration: none;
+	color: #006633;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#menu {
+	width: 180px;
+	float: left;
+	margin-top: 20px;
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: #006633;
+	margin-left: 5px;
+}
+#footer {
+	background-image: url(./components/images/top.jpg);
+	background-repeat: no-repeat;
+	height: 33px;
+	width: 700px;
+	text-align: center;
+	padding-top: 20px;
+}
+#creativecommons {
+	visibility: hidden;
 }
