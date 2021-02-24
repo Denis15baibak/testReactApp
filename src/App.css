@@ -160,3 +160,37 @@ body {
 #creativecommons {
 	visibility: hidden;
 }
+
+#dialogs-wrapper {
+	height: 700px;
+	width: 698px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #d6d6d6;
+	border-left-color: #d6d6d6;
+	border-right-width: 1px;
+}
+
+#dlg h2 {
+	margin: 0px;
+	padding: 0px;
+	color: #006633;
+}
+
+#dlg {
+	width: 480px;
+	float: right;
+	margin-top: 20px;
+	height: auto;
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: #006633;
+	margin-right: 5px;
+}
+
+#topnav a.active {
+
+color: darkmagenta;
+
+}

@@ -5,16 +5,6 @@ const Main = () => {
     return (
 
         <div id="content">
-            <div id="menu">
-                <h2>Go To... </h2>
-                <ul>
-                    <li><a href="http://web-mastery.info/">Home</a></li>
-                    <li><a href="#">Active</a></li>
-                    <li><a href="#">Link 3</a></li>
-                    <li><a href="#">Link 4</a></li>
-                    <li><a href="#">Link 5</a></li>
-                </ul>
-            </div>
             <div id="maincontent">
                 <h2>Lorem Ipsum</h2>
                 <p><img src="images/imageplace.jpg" alt="" />Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi gravida.   Nullam iaculis nulla sed nunc. Proin id ante. Nunc ligula diam, pellentesque   non, interdum ac, accumsan mattis, nisl. Aliquam non ante. Maecenas congue   volutpat enim. Sed dui risus, aliquet sit amet, posuere id, interdum eu, tellus.   Cras augue dui, condimentum nec, nonummy et, venenatis nec, odio. Suspendisse   nec erat. Nulla auctor. Sed viverra nulla. Nullam dapibus nibh vitae urna. </p>
