@@ -4,20 +4,21 @@ import Header from './components/Header/Header'
 import { BrowserRouter, Route } from 'react-router-dom'
 import Footer from './components/Footer/Footer'
 import Main from './components/Main/Main'
-import Dialogs from './components/Dialogs/Dialogs'
+import Dialogs from './components/Pages/Dialogs/Dialogs'
 import Menu from './components/Menu/Menu'
+import Profile from './components/Pages/Profile/Profile'
 
-const App = () => {
+const App = (props) => {
   return (
     <BrowserRouter>
       <div className="socialNetwork">
         <body>
           <div id="wrapper">
             <Header />
-            <Menu />
             <div className='content-wrapper'>
-              <Route path='/home' component={Main} />
-              <Route path='/dialogs' component={Dialogs} />
+              <Route path='/home' render={ () => <Main/>} />
+              <Route path='/profile' render={ () => <Profile avatar={props.avatar}/>} />
+              <Route path='/dialogs' render={ () => <Dialogs dialogs= {props.dialogs} messages= {props.messages}/>} />
             </div>
             <Footer />
           </div>

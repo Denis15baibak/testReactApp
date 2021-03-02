@@ -1,17 +1,15 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 
-const Menu = () => {
+
+const Menu = (props) => {
 
     return (
 
         <div id="menu">
-            <h2>Go To... </h2>
+            
             <ul>
-                <li><a href="/home">Home</a></li>
-                <li><a href="/dialogs">Dialogs</a></li>
-                <li><a href="#">Link 3</a></li>
-                <li><a href="#">Link 4</a></li>
-                <li><a href="#">Link 5</a></li>
+                <li><NavLink to={"/dialogs/" + props.path}>{props.name}</NavLink></li>
             </ul>
         </div>
 

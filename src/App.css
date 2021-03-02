@@ -92,7 +92,7 @@ body {
 	color: #006600;
 }
 #maincontent {
-	width: 480px;
+	width: 680px;
 	float: right;
 	margin-top: 20px;
 	height: auto;
@@ -145,8 +145,8 @@ body {
 	float: left;
 	margin-top: 20px;
 	border-top-width: 3px;
-	border-top-style: solid;
-	border-top-color: #006633;
+	border-bottom-style: solid;
+	border-bottom-color: #006633;
 	margin-left: 5px;
 }
 #footer {
@@ -172,14 +172,41 @@ body {
 	border-right-width: 1px;
 }
 
-#dlg h2 {
-	margin: 0px;
-	padding: 0px;
-	color: #006633;
+#topnav a.active {
+
+color: darkmagenta;
+
+}
+
+.messages {
+
+padding: 10px;
+}
+
+.message {
+
+	padding: 10px;
+
+	display: flex;
+    flex-direction:column;
 }
 
 #dlg {
-	width: 480px;
+	display: flex;
+    flex-direction:column;
+
+}
+
+.posts .postsTitle {
+	margin: 0px;
+    padding: 0px;
+    color: #006633;
+
+}
+
+.posts {
+
+	width: 680px;
 	float: right;
 	margin-top: 20px;
 	height: auto;
@@ -187,10 +214,25 @@ body {
 	border-top-style: solid;
 	border-top-color: #006633;
 	margin-right: 5px;
-}
-
-#topnav a.active {
-
-color: darkmagenta;
 
 }
+
+
+
+.posts {
+    width: 680px;
+    float: right;
+    margin-top: 20px;
+    height: auto;
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: #006633;
+    margin-right: 5px;
+}
+
+.avatar {
+	vertical-align: middle;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+  }
